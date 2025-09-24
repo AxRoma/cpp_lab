@@ -16,7 +16,7 @@ echo ""
 
 # Компилируем и запускаем Google Test тесты
 echo "3. Компилируем и запускаем Google Test тесты..."
-g++ gtest_tests.cpp newton_solver.o -o gtest_tests -std=c++17
+g++ gtest_tests.cpp newton_solver.cpp -lgtest -lgtest_main -pthread -o gtest_tests
 echo "--- Результаты Google Test тестов ---"
 ./gtest_tests
 

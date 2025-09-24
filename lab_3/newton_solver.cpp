@@ -1,4 +1,4 @@
-#include "newton.h"
+#include "newton_solver.h"
 #include <cmath>
 #include <stdexcept>
 #include <iostream>
