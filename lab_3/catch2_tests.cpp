@@ -1,5 +1,5 @@
 #include "catch.hpp"
-#include "newton_solver.h"
+#include "newton.h"
 #include <cmath>
 #include <iostream>
 
